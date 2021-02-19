@@ -1,0 +1,28 @@
+/* Video player: full size! */
+.persistent-player {
+    width: 100% !important;
+}
+
+/* Remove chat background */
+.right-column * {
+    background: none !important;
+}
+
+/* Make chat transparent and adjust height */
+.right-column {
+    background: rgba(0,0,0,0.2) !important;
+    height: 40% !important;
+}
+
+/* Chat toggle button */
+.right-column__toggle-visibility .tw-tooltip__container {
+    position: relative !important;
+    left: -9px;
+    width: 18px !important;
+    background: rgba(0,0,0,0.6) !important;
+}
+
+/* Hide chat header and channel leaderboard */
+.stream-chat-header, .channel-leaderboard{
+    display: none !important;
+}
