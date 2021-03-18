@@ -17,6 +17,7 @@
     display: none;
 }
 
+
 /* Remove chat background */
 .right-column * {
     background: none !important;
@@ -41,6 +42,15 @@
 }
 
 /* Hide chat header and channel leaderboard */
-.stream-chat-header, .channel-leaderboard{
+.stream-chat-header, .channel-leaderboard {
     display: none !important;
+}
+
+/* Add a background to emote tooltips but remove it for emote images */
+.video-chat__message div {
+    background: black !important;
+    color: white !important;
+}
+.video-chat__message .bttv-emote, .video-chat__message .chat-image__container {
+    background: none !important;
 }
